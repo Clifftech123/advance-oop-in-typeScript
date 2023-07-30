@@ -1,0 +1,16 @@
+{
+  "name": "set-get",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "tsc-node": "^0.0.3"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
